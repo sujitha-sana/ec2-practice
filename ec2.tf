@@ -48,7 +48,7 @@ resource "aws_instance" "frontend_instance" {
   #subnet_id      = element(aws_subnet.dev-public, count.index)
   #vpc_security_group_ids = "vpc-0859fa737a167cb13"
   tags = {
-    Name        = "dev1"
+    Name        = "dev2"
   }
 }
 
